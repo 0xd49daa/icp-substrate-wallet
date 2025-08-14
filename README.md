@@ -60,6 +60,8 @@ dfx deploy icp_substrate_wallet
 dfx canister call icp_substrate_wallet initializeSalt
 ```
 
+**⚠️ PRODUCTION DEPLOYMENT**: Before deploying to production, ensure that `KEY_ID_NAME` in the code is changed to `key_1` for proper key management.
+
 ## API Methods
 
 ### Initialization

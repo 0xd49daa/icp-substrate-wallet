@@ -3,7 +3,7 @@ import { serialize } from 'azle/experimental';
 
 // Security constants
 const ANONYMOUS_PRINCIPAL_TEXT = '2vxsx-fae';
-const KEY_ID_NAME = 'dfx_test_key'; // TODO: Change for production
+const KEY_ID_NAME = 'dfx_test_key'; // TODO: Change for production to key_1
 const SIGN_CYCLES = 30_000_000_000n;
 const MAX_MESSAGE_BYTES = 1024 * 1024; // 1MB limit
 const MIN_MESSAGE_BYTES = 1; // Reject empty messages
