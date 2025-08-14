@@ -1,0 +1,16 @@
+{
+    "canisters": {
+        "icp_substrate_wallet": {
+            "type": "azle",
+            "main": "src/index.ts",
+            "declarations": {
+                "bindings": ["js", "ts"],
+                "node_compatibility": true,
+                "output": "./declarations/icp_substrate_wallet"
+            },
+            "custom": {
+                "experimental": true
+            }
+        }
+    }
+}

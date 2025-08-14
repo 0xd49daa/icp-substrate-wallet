@@ -1,0 +1,20 @@
+{
+    "name": "icp-substrate-wallet",
+    "version": "1.0.0",
+    "description": "ICP canister providing non-custodial Substrate wallet functionality for Internet Identity users",
+    "scripts": {
+        "pretest": "tsx test/pretest.ts",
+        "test": "AZLE_DFX_ROOT=$(pwd)/.. jest"
+    },
+    "dependencies": {
+        "@polkadot/util": "^13.5.5",
+        "@polkadot/util-crypto": "^13.5.5",
+        "azle": "^0.32.0",
+        "azle-experimental-deps": "github:demergent-labs/azle-experimental-deps#d804c0838c50aa4221e50d8d522c86163ea68cdd"
+    },
+    "devDependencies": {
+        "esbuild-plugin-tsc": "^0.5.0",
+        "jest": "^30.0.2",
+        "ts-jest": "^29.4.0"
+    }
+}
